@@ -50,14 +50,35 @@
       color: #555;
       text-decoration: underline;
     }
+    /* Hero banner */
+    .hero {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Gramercy_Park_in_New_York_City.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0px 2px 6px rgba(0,0,0,0.6);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin: 10px 0 0 0;
+    }
   </style>
 </head>
 <body>
 
-  <section>
-    <h1>Lisa Cohen & Robert Feder</h1>
-    <p class="subheader">June 20, 2026 | New York, NY</p>
-  </section>
+  <!-- Hero Banner -->
+  <div class="hero">
+    <div>
+      <h1>Lisa Cohen & Robert Feder</h1>
+      <p>June 20, 2026 | New York, NY</p>
+    </div>
+  </div>
 
   <section>
     <h2>Schedule</h2>
@@ -89,3 +110,26 @@
       Getting Around: Subway, Uber, Lyft, Yellow Cabs
     </p>
   </section>
+
+  <section class="gray">
+    <h2>Registry</h2>
+    <p>
+      We are registered at <a href="#">Store 1</a>, <a href="#">Store 2</a>, and <a href="#">Universal Registry</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>FAQs</h2>
+    <p>
+      <strong>Dress Code:</strong> Cocktail Attire<br>
+      <strong>Kids:</strong> Yes/No<br>
+      <strong>RSVP:</strong> Please use the card included with your invitation
+    </p>
+  </section>
+
+  <section class="footer">
+    <p>We can’t wait to celebrate with you in New York City!</p>
+  </section>
+
+</body>
+</html>
